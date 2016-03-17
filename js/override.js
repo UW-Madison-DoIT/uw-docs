@@ -10,12 +10,12 @@ define(['angular'], function(angular) {
             'showSearch' : false
           },
           'NAMES' : {
-            'title' : 'uw-frame Docs',
-            'fname' : 'uw-frame-fname'
+            'title' : 'uw-docs',
+            'fname' : 'uw-docs'
           },
           'MISC_URLS' : {
             'rootURL' : '#/',
-            'logoutURL' : 'https://github.com/UW-Madison-DoIT/uw-frame'
+            'loginURL' : 'https://github.com/UW-Madison-DoIT/uw-docs'
           }
         })
 
