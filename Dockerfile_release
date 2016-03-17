@@ -5,5 +5,10 @@ MAINTAINER Tim Levett <tim.levett@wisc.edu>
 COPY bower_components/marked/ /data/bower_components/marked/
 COPY bower_components/angular-marked/ /data/bower_components/angular-marked/
 COPY staticFeeds/session.json /data/staticFeeds/session.json
+COPY my-app/ /data/my-app/
+COPY superstatic.json /data/superstatic.json
+COPY js/override.js /data/js/override.js
+COPY js/config.js /data/js/config.js
+COPY config.js /data/config.js
 
-VOLUME /data/my-app
+VOLUME /data/markdown
